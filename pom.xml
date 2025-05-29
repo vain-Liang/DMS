@@ -281,7 +281,7 @@
 
     <build>
         <!-- 项目访问名称 -->
-        <finalName>qingongzhuxue</finalName>
+        <finalName>DMS</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
