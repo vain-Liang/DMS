@@ -12,7 +12,7 @@ import java.net.URL;
 public class HttpClientUtils {
 
     /**
-     * @param uri
+     * @param uri 统一资源定位标识
      * @return String
      * @description get请求方式
      * @author: long.he01
