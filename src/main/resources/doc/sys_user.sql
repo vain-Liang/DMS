@@ -14,6 +14,15 @@
  Date: 06/25/2017 20:53:49 PM
 */
 
+/*
+CREATE DATABASE IF NOT EXISTS DMS
+       CHARACTER SET utf8mb4
+       COLLATE utf8mb4_general_ci;
+
+ */
+
+USE DMS;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
