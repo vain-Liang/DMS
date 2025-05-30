@@ -19,9 +19,9 @@ public class BaiduUtil {
 	
     /**
      * 根据经纬度获得省市区信息
-     * @param lon 纬度
+     * @param lng 纬度
      * @param lat 经度
-     * @param coordtype 经纬度坐标系
+     * @param key 经纬度坐标系
      * @return
      */
     public static Map<String, String> getCityByLonLat(String key, String lng, String lat) {
@@ -83,7 +83,7 @@ public class BaiduUtil {
              * 返回结果示例
              */
             System.err.println("result:" + result);
-            org.json.JSONObject jsonObject = new org.json.JSONObject(result);
+            JSONObject jsonObject = new JSONObject(result);
             String access_token = jsonObject.getString("access_token");
             return access_token;
         } catch (Exception e) {
