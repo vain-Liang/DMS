@@ -21,6 +21,8 @@ USE DMS;
 
 /*Table structure for table `bumenguanli` */
 
+/* TODO: Refactoring the underlying data types */
+
 DROP TABLE IF EXISTS `bumenguanli`;
 
 CREATE TABLE `bumenguanli` (
