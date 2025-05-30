@@ -39,7 +39,7 @@ CREATE TABLE `bumenguanli` (
 
 /*Data for the table `bumenguanli` */
 
-insert  into `bumenguanli`(`id`,`username`,`password`,`bumenguanli_name`,`sex_types`,`bumenguanli_id_number`,`bumenguanli_phone`,`bumenguanli_email`,`bumenguanli_photo`,`create_time`) values (1,'333','123456','部门管理员1',1,'410882199111111111','17796688971','1111@qq.com','http://localhost:8080/qingongzhuxue/file/download?fileName=1621063906638.jpg','2021-05-15 15:07:37'),(2,'444','123456','部门管理员2',2,'410882199212222222','17796632972','2222@qq.com','http://localhost:8080/qingongzhuxue/file/download?fileName=1621063898883.jpg','2021-05-15 15:09:05');
+insert  into `bumenguanli`(`id`,`username`,`password`,`bumenguanli_name`,`sex_types`,`bumenguanli_id_number`,`bumenguanli_phone`,`bumenguanli_email`,`bumenguanli_photo`,`create_time`) values (1,'333','123456','部门管理员1',1,'410882199111111111','17796688971','1111@qq.com','http://localhost:8080/DMS/file/download?fileName=1621063906638.jpg','2021-05-15 15:07:37'),(2,'444','123456','部门管理员2',2,'410882199212222222','17796632972','2222@qq.com','http://localhost:8080/DMS/file/download?fileName=1621063898883.jpg','2021-05-15 15:09:05');
 
 /*Table structure for table `config` */
 
@@ -146,7 +146,7 @@ CREATE TABLE `news` (
 
 /*Data for the table `news` */
 
-insert  into `news`(`id`,`news_name`,`news_types`,`news_photo`,`insert_time`,`news_content`,`create_time`) values (3,'公告1',1,'http://localhost:8080/qingongzhuxue/file/download?fileName=1621078082731.jpg','2021-05-15 19:28:05','公告信息详情1\r\n\r\n','2021-05-15 19:28:05'),(4,'公告2',2,'http://localhost:8080/qingongzhuxue/file/download?fileName=1621078091525.jpg','2021-05-15 19:28:13','公告信息详情2\r\n\r\n','2021-05-15 19:28:13');
+insert  into `news`(`id`,`news_name`,`news_types`,`news_photo`,`insert_time`,`news_content`,`create_time`) values (3,'公告1',1,'http://localhost:8080/DMS/file/download?fileName=1621078082731.jpg','2021-05-15 19:28:05','公告信息详情1\r\n\r\n','2021-05-15 19:28:05'),(4,'公告2',2,'http://localhost:8080/DMS/file/download?fileName=1621078091525.jpg','2021-05-15 19:28:13','公告信息详情2\r\n\r\n','2021-05-15 19:28:13');
 
 /*Table structure for table `shenqingshenhe` */
 
@@ -166,7 +166,7 @@ CREATE TABLE `shenqingshenhe` (
 
 /*Data for the table `shenqingshenhe` */
 
-insert  into `shenqingshenhe`(`id`,`yonghu_id`,`gangwei_id`,`kaohepingjia_types`,`shenqingshenhe_file`,`shenqingshenhe_types`,`insert_time`,`create_time`) values (2,1,3,1,'http://localhost:8080/qingongzhuxue/file/download?fileName=1621068919345.doc',2,'2021-05-15 16:55:20','2021-05-15 16:55:20'),(3,1,3,2,'http://localhost:8080/qingongzhuxue/file/download?fileName=1621076360690.doc',2,'2021-05-15 18:59:21','2021-05-15 18:59:21'),(4,2,4,1,'http://localhost:8080/qingongzhuxue/file/download?fileName=1621078563423.doc',2,'2021-05-15 19:36:04','2021-05-15 19:36:04'),(5,2,4,2,'http://localhost:8080/qingongzhuxue/file/download?fileName=1621079160406.JPG',2,'2021-05-15 19:46:01','2021-05-15 19:46:01');
+insert  into `shenqingshenhe`(`id`,`yonghu_id`,`gangwei_id`,`kaohepingjia_types`,`shenqingshenhe_file`,`shenqingshenhe_types`,`insert_time`,`create_time`) values (2,1,3,1,'http://localhost:8080/DMS/file/download?fileName=1621068919345.doc',2,'2021-05-15 16:55:20','2021-05-15 16:55:20'),(3,1,3,2,'http://localhost:8080/DMS/file/download?fileName=1621076360690.doc',2,'2021-05-15 18:59:21','2021-05-15 18:59:21'),(4,2,4,1,'http://localhost:8080/DMS/file/download?fileName=1621078563423.doc',2,'2021-05-15 19:36:04','2021-05-15 19:36:04'),(5,2,4,2,'http://localhost:8080/DMS/file/download?fileName=1621079160406.JPG',2,'2021-05-15 19:46:01','2021-05-15 19:46:01');
 
 /*Table structure for table `token` */
 
@@ -186,7 +186,7 @@ CREATE TABLE `token` (
 
 /*Data for the table `token` */
 
-insert  into `token`(`id`,`userid`,`username`,`tablename`,`role`,`token`,`addtime`,`expiratedtime`) values (1,1,'admin','users','管理员','cqqt40xnpl9dvroxq85i9qb97ey40w46','2021-05-15 15:05:59','2021-05-15 20:30:49'),(2,1,'111','yonghu','用户','z0sp57te73eer06ag6mtc5ulult5zm4i','2021-05-15 18:55:51','2021-05-15 20:24:10'),(3,2,'444','bumenguanli','部门管理员','4ghgkvpnkofews7ohzalm8ibj14pt1fv','2021-05-15 19:10:06','2021-05-15 20:46:07'),(4,1,'333','bumenguanli','部门管理员','f9ef7m5o547avfpymcrwcv1709q39b0q','2021-05-15 19:18:06','2021-05-15 20:38:42'),(5,2,'222','yonghu','用户','e27a1e8t5n4l61agdqt5zuuit47gy65l','2021-05-15 19:35:42','2021-05-15 20:45:53');
+insert  into `token`(`id`,`userid`,`username`,`tablename`,`role`,`token`,`addtime`,`expiratedtime`) values (1,1,'admin','users','管理员','cqqt40xnpl9dvroxq85i9qb97ey40w46','2025-05-30 15:45:19','2025-05-30 20:30:49'),(2,1,'111','yonghu','用户','z0sp57te73eer06ag6mtc5ulult5zm4i','2025-05-30 16:00:01','2025-05-30 22:24:10'),(3,2,'444','bumenguanli','部门管理员','4ghgkvpnkofews7ohzalm8ibj14pt1fv','2025-05-30 16:01:26','2025-05-30 21:46:07'),(4,1,'333','bumenguanli','部门管理员','f9ef7m5o547avfpymcrwcv1709q39b0q','2025-05-30 16:11:01','2025-05-30 23:38:42'),(5,2,'222','yonghu','用户','e27a1e8t5n4l61agdqt5zuuit47gy65l','2025-05-30 16:00:12','2026-05-30 23:45:53');
 
 /*Table structure for table `users` */
 
@@ -244,7 +244,7 @@ CREATE TABLE `yonghu` (
 
 /*Data for the table `yonghu` */
 
-insert  into `yonghu`(`id`,`username`,`password`,`yonghu_name`,`sex_types`,`yonghu_id_number`,`yonghu_phone`,`yonghu_email`,`yonghu_photo`,`gangwei`,`create_time`) values (1,'111','123456','用户1',1,'410882198912111111','17789966591','1111@qq.com','http://localhost:8080/qingongzhuxue/file/download?fileName=1621064532888.jpg',0,'2021-05-15 15:42:14'),(2,'222','123456','用户2',2,'410882198912111112','17789966592','2222@qq.com','http://localhost:8080/qingongzhuxue/file/download?fileName=1621064550943.jpg',0,'2021-05-15 15:42:34');
+insert  into `yonghu`(`id`,`username`,`password`,`yonghu_name`,`sex_types`,`yonghu_id_number`,`yonghu_phone`,`yonghu_email`,`yonghu_photo`,`gangwei`,`create_time`) values (1,'111','123456','用户1',1,'410882198912111111','17789966591','1111@qq.com','http://localhost:8080/DMS/file/download?fileName=1621064532888.jpg',0,'2021-05-15 15:42:14'),(2,'222','123456','用户2',2,'410882198912111112','17789966592','2222@qq.com','http://localhost:8080/DMS/file/download?fileName=1621064550943.jpg',0,'2021-05-15 15:42:34');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
