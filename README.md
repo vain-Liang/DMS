@@ -13,7 +13,7 @@
 
 3. 在你方便找到的任意位置创建名为 `DMS` 的 **空文件夹**
 4. 在 `IDEA` 启动页面选择 [`第3步`](#No-3) 创建的 `DMS` 空文件目录
-5. 选择 `clone` （`克隆`）`remote repository`（`远程仓库`），`URL`为 `https://gitea.immortalx.site:46578/No.20/etherE.git`
+5. 选择 `clone` （`克隆`）`remote repository`（`远程仓库`），`URL`为 `https://gitea.immortalx.site:46578/No.20/FormalRepo.git`
 6. 输入你的这个`gitea`平台的 **用户名**和**密码**
 
 > [!IMPORTANT]
