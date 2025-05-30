@@ -4,11 +4,12 @@
 需要安装 **IDEA** 、 **Git** 、 **Java** 、 **Tomcat** 以及 **MySQL** 环境。
 1. 使用 [**IntelliJ IDEA**](https://www.jetbrains.com/idea/download/)![](https://camo.githubusercontent.com/5b6ba2a51ac1abd8d47caa3acd8c3049558c480ed87a61619330861d0cb1ef78/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f496e74656c6c694a253230494445412d3030303030302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d696e74656c6c696a69646561266c6f676f436f6c6f723d666666666666)  
 2. 在系统上安装[**Git**](https://git-scm.com/downloads/)![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+
 ## 将源代码复制到本地
-项目名称为 **DMS** （`Digital Management System`）。
-3. 创建项目文件夹
-<a name="No3"></a>
-任意位置创建名为 `DMS` 的 **空文件夹** <br/>
+项目名称为 **DMS** （`Digital Management System`）。<br/>
+
+3. 在你方便找到的任意位置创建名为 `DMS` 的 **空文件夹**
 4. 在 `IDEA` 启动页面选择 [`第3步`](#No-3) 创建的 `DMS` 空文件目录
 5. 选择 `clone` （`克隆`）`remote repository`（`远程仓库`），`URL`为 `https://gitea.immortalx.site:46578/No.20/etherE.git`
 6. 输入你的这个`gitea`平台的 **用户名**和**密码**
