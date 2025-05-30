@@ -5,6 +5,8 @@
 1. 使用 [**IntelliJ IDEA**](https://www.jetbrains.com/idea/download/)![](https://camo.githubusercontent.com/5b6ba2a51ac1abd8d47caa3acd8c3049558c480ed87a61619330861d0cb1ef78/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f496e74656c6c694a253230494445412d3030303030302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d696e74656c6c696a69646561266c6f676f436f6c6f723d666666666666)  
 2. 在系统上安装[**Git**](https://git-scm.com/downloads/)![](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
+> [!CAUTION]
+> `JDK` 版本必须为 **1.8**，不要使用 **21** 及以上版本的JDK！！！
 
 ## 将源代码复制到本地
 项目名称为 **DMS** （`Digital Management System`）。<br/>
