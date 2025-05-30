@@ -31,7 +31,7 @@
 > 我的在 Maven 下载依赖这一步进行了大概**29分钟**，注意分配时间
 
 9. 在代码目录 `src\main\resources` 中的 **config.properties** 文件中更改连接数据库的用户名和密码
-10. 执行代码目录 `src\main\resources` 中的 **sys_user.sql** 创建数据表[^1]
+10. 执行代码目录 `src\main\resources` 中的  **db.sql** 和 **sys_user.sql** 创建数据表
 
 
 ## 部署到 `Tomcat`
@@ -39,4 +39,3 @@
 12. 启动 Tomcat 服务器 并查看是否部署成功，如果部署失败请检查运行配置，部署成功后如果无法登录请启动`MySQL`数据库
 
 
-[^1]: 尚不清楚此步是否必需，待我测试后明确
