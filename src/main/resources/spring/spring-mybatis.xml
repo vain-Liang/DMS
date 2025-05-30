@@ -13,9 +13,9 @@
     <!-- 配置数据源 -->
     <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
         <property name="url" value="${jdbc_url}"/>
-        <property name="username" value="${jdbc_username}"/>
-        <property name="password" value="${jdbc_password}"/>
-        <property name="driverClassName" value="${jdbc_driverclass}"/>
+        <property name="username" value="root"/>
+        <property name="password" value="roOt^123456#"/>
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
 
         <!-- 初始化连接大小 -->
         <property name="initialSize" value="0"/>
