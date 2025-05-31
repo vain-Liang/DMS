@@ -36,7 +36,7 @@
         height: 100%;
     }
     body {
-        background-image: url(https://bing.biturl.top/?format=image&image_format=webp&index=random&mkt=random) !important;
+        background-image: url(https://bing.biturl.top/?format=image&image_format=webp&index=0&mkt=zh-CN) !important;
         height: 100vh;
         background-position: center center;
         background-size: cover;
