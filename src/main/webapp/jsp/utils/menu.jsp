@@ -45,12 +45,12 @@ var menus = [
 			                "修改",
 			                "删除"
 			            ],
-			            "menu":"用户管理",
+			            "menu":"基地管理员管理",
 			            "menuJump":"列表",
 			            "tableName":"yonghu"
 			        }
 			    ],
-			    "menu":"用户管理"
+			    "menu":"基地管理员管理"
 			}
             ,{
                 "child":[
@@ -61,12 +61,12 @@ var menus = [
                             "修改",
                             "删除"
                         ],
-                        "menu":"岗位信息管理",
+                        "menu":"基地信息管理",
                         "menuJump":"列表",
                         "tableName":"gangwei"
                     }
                 ],
-                "menu":"岗位信息管理"
+                "menu":"基地信息管理"
             }
 			,{
 			    "child":[
