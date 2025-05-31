@@ -36,7 +36,7 @@
         height: 100%;
     }
     body {
-        background-image: url(http://codegen.caihongy.cn/20210203/f93fe1b72610452dab696d7aa5d26695.jpg) !important;
+        background-image: url(https://bing.biturl.top/?format=image&image_format=webp&index=random&mkt=random) !important;
         height: 100vh;
         background-position: center center;
         background-size: cover;
