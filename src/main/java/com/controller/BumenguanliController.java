@@ -1,19 +1,15 @@
 package com.controller;
 
 
-import java.text.SimpleDateFormat;
 import com.alibaba.fastjson.JSONObject;
 import java.util.*;
 import org.springframework.beans.BeanUtils;
 import javax.servlet.http.HttpServletRequest;
-import org.springframework.web.context.ContextLoader;
-import javax.servlet.ServletContext;
+
 import com.service.TokenService;
 import com.utils.StringUtil;
-import java.lang.reflect.InvocationTargetException;
 
 import com.service.DictionaryService;
-import org.apache.commons.lang3.StringUtils;
 import com.annotation.IgnoreAuth;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
