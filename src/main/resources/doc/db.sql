@@ -29,7 +29,7 @@ CREATE TABLE `bumenguanli` (
   `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
   `username` varchar(200) DEFAULT NULL COMMENT '账户',
   `password` varchar(200) DEFAULT NULL COMMENT '密码',
-  `bumenguanli_name` varchar(200) DEFAULT NULL COMMENT '部门管理员姓名  Search111',
+  `bumenguanli_name` varchar(200) DEFAULT NULL COMMENT '系统管理员姓名  Search111',
   `sex_types` int(11) DEFAULT NULL COMMENT '性别 Search111',
   `bumenguanli_id_number` varchar(200) DEFAULT NULL COMMENT '身份证号',
   `bumenguanli_phone` varchar(200) DEFAULT NULL COMMENT '手机号',
@@ -37,11 +37,11 @@ CREATE TABLE `bumenguanli` (
   `bumenguanli_photo` varchar(200) DEFAULT NULL COMMENT '照片',
   `create_time` timestamp NULL DEFAULT NULL COMMENT '创建时间 ',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='部门管理员';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='系统管理员';
 
 /*Data for the table `bumenguanli` */
 
-insert  into `bumenguanli`(`id`,`username`,`password`,`bumenguanli_name`,`sex_types`,`bumenguanli_id_number`,`bumenguanli_phone`,`bumenguanli_email`,`bumenguanli_photo`,`create_time`) values (1,'333','123456','部门管理员1',1,'410882199111111111','17796688971','1111@qq.com','http://localhost:8080/DMS/file/download?fileName=1621063906638.jpg','2021-05-15 15:07:37'),(2,'444','123456','部门管理员2',2,'410882199212222222','17796632972','2222@qq.com','http://localhost:8080/DMS/file/download?fileName=1621063898883.jpg','2021-05-15 15:09:05');
+insert  into `bumenguanli`(`id`,`username`,`password`,`bumenguanli_name`,`sex_types`,`bumenguanli_id_number`,`bumenguanli_phone`,`bumenguanli_email`,`bumenguanli_photo`,`create_time`) values (1,'333','123456','系统管理员1',1,'410882199111111111','17796688971','1111@qq.com','http://10.100.10.2:8080/DMS/file/download?fileName=1621063906638.jpg','2025-06-01 10:07:37'),(2,'444','123456','系统管理员2',2,'410882199212222222','17796632972','2222@qq.com','http://10.100.10.2:8080/DMS/file/download?fileName=1621063898883.jpg','2025-05-31 11:07:15');
 
 /*Table structure for table `config` */
 
@@ -56,7 +56,7 @@ CREATE TABLE `config` (
 
 /*Data for the table `config` */
 
-insert  into `config`(`id`,`name`,`value`) values (1,'picture1','http://localhost:8080/gongchengcailiao/upload/1614999756013.jpg'),(2,'picture2','http://localhost:8080/gongchengcailiao/upload/1614999769770.jpg'),(3,'picture3','http://localhost:8080/gongchengcailiao/upload/1614999778981.jpg'),(6,'homepage',NULL);
+insert  into `config`(`id`,`name`,`value`) values (1,'picture1','http://10.100.10.2:8080/gongchengcailiao/upload/1614999756013.jpg'),(2,'picture2','http://10.100.10.2:8080/gongchengcailiao/upload/1614999769770.jpg'),(3,'picture3','http://10.100.10.2:8080/gongchengcailiao/upload/1614999778981.jpg'),(6,'homepage',NULL);
 
 /*Table structure for table `dictionary` */
 
@@ -75,7 +75,7 @@ CREATE TABLE `dictionary` (
 
 /*Data for the table `dictionary` */
 
-insert  into `dictionary`(`id`,`dic_code`,`dic_name`,`code_index`,`index_name`,`super_types`,`create_time`) values (1,'sex_types','性别',1,'男',NULL,'2021-05-15 14:51:36'),(2,'sex_types','性别',2,'女',NULL,'2021-05-15 14:51:36'),(3,'news_types','公告类型名称',1,'公告类型1',NULL,'2021-05-15 14:51:36'),(4,'news_types','公告类型名称',2,'公告类型2',NULL,'2021-05-15 14:51:36'),(5,'kaohepingjia_types','申请类型',1,'入职',NULL,'2021-05-15 14:51:36'),(6,'kaohepingjia_types','申请类型',2,'离职',NULL,'2021-05-15 14:51:36'),(7,'shenqingshenhe_types','审核状态',1,'未审核',NULL,'2021-05-15 14:51:36'),(8,'shenqingshenhe_types','审核状态',2,'通过',NULL,'2021-05-15 14:51:36'),(9,'shenqingshenhe_types','审核状态',3,'拒绝',NULL,'2021-05-15 14:51:36'),(10,'gangwei_types','岗位类型名称',1,'岗位类型1',NULL,'2021-05-15 14:51:36'),(11,'gangwei_types','岗位类型名称',2,'岗位类型2',NULL,'2021-05-15 14:51:36'),(12,'gangwei_types','岗位类型名称',3,'岗位类型3',NULL,'2021-05-15 14:51:36');
+insert  into `dictionary`(`id`,`dic_code`,`dic_name`,`code_index`,`index_name`,`super_types`,`create_time`) values (1,'sex_types','性别',1,'男',NULL,'2025-06-01 11:48:16'),(2,'sex_types','性别',2,'女',NULL,'2025-05-31 13:14:28'),(3,'news_types','公告类型名称',1,'公告类型1',NULL,'2025-06-01 8:01:06'),(4,'news_types','公告类型名称',2,'公告类型2',NULL,'2025-05-31 11:21:46'),(5,'kaohepingjia_types','申请类型',1,'入职',NULL,'2025-05-31 14:51:36'),(6,'kaohepingjia_types','申请类型',2,'离职',NULL,'2025-05-31 14:51:36'),(7,'shenqingshenhe_types','审核状态',1,'未审核',NULL,'2025-05-31 14:51:36'),(8,'shenqingshenhe_types','审核状态',2,'通过',NULL,'2025-05-31 14:51:36'),(9,'shenqingshenhe_types','审核状态',3,'拒绝',NULL,'2025-05-31 14:51:36'),(10,'gangwei_types','岗位类型名称',1,'岗位类型1',NULL,'2025-05-31 14:51:36'),(11,'gangwei_types','岗位类型名称',2,'岗位类型2',NULL,'2025-05-31 14:51:36'),(12,'gangwei_types','岗位类型名称',3,'岗位类型3',NULL,'2024-05-31 14:51:36');
 
 /*Table structure for table `gangwei` */
 
@@ -95,7 +95,7 @@ CREATE TABLE `gangwei` (
 
 /*Data for the table `gangwei` */
 
-insert  into `gangwei`(`id`,`gangwei_name`,`gangwei_types`,`gangwei_money`,`gangwei_yaoqiu`,`gangwei_shijian`,`gangwei_content`,`create_time`) values (1,'岗位名称1',1,'10000.00','岗位要求1',24,'岗位介绍1\r\n','2021-05-15 15:43:10'),(2,'岗位名称2',2,'20000.00','岗位要求2',48,'岗位介绍2\r\n','2021-05-15 15:43:27'),(3,'岗位名称3',3,'30000.00','岗位要求3',72,'岗位介绍3\r\n','2021-05-15 15:43:58'),(4,'岗位名称4',3,'40000.00','岗位要求4',96,'岗位介绍4\r\n','2021-05-15 19:32:58');
+insert  into `gangwei`(`id`,`gangwei_name`,`gangwei_types`,`gangwei_money`,`gangwei_yaoqiu`,`gangwei_shijian`,`gangwei_content`,`create_time`) values (1,'岗位名称1',1,'10000.00','岗位要求1',24,'岗位介绍1\r\n','2025-05-31 15:43:10'),(2,'岗位名称2',2,'20000.00','岗位要求2',48,'岗位介绍2\r\n','2025-05-31 15:43:27'),(3,'岗位名称3',3,'30000.00','岗位要求3',72,'岗位介绍3\r\n','2025-05-31 15:43:58'),(4,'岗位名称4',3,'40000.00','岗位要求4',96,'岗位介绍4\r\n','2025-05-31 16:32:58');
 
 /*Table structure for table `gongzuo` */
 
@@ -112,7 +112,7 @@ CREATE TABLE `gongzuo` (
 
 /*Data for the table `gongzuo` */
 
-insert  into `gongzuo`(`id`,`yonghu_id`,`gongzuo_content`,`insert_time`,`create_time`) values (1,1,'工作内容1111\r\n','2021-05-15 19:00:42','2021-05-15 19:00:42'),(2,2,'工作内容11111\r\n\r\n','2021-05-15 19:38:15','2021-05-15 19:38:15');
+insert  into `gongzuo`(`id`,`yonghu_id`,`gongzuo_content`,`insert_time`,`create_time`) values (1,1,'工作内容1111\r\n','2025-05-31 19:00:42','2025-05-31 19:00:42'),(2,2,'工作内容11111\r\n\r\n','2025-05-31 19:38:15','2025-05-31 19:38:15');
 
 /*Table structure for table `kaohepingjia` */
 
@@ -129,7 +129,7 @@ CREATE TABLE `kaohepingjia` (
 
 /*Data for the table `kaohepingjia` */
 
-insert  into `kaohepingjia`(`id`,`yonghu_id`,`kaohepingjia_content`,`insert_time`,`create_time`) values (1,1,'评价内容1\r\n','2021-05-15 16:32:32','2021-05-15 16:32:32'),(2,2,'评价内容2131\r\n\r\n','2021-05-15 19:39:27','2021-05-15 19:39:27');
+insert  into `kaohepingjia`(`id`,`yonghu_id`,`kaohepingjia_content`,`insert_time`,`create_time`) values (1,1,'评价内容1\r\n','2025-05-31 16:32:32','2025-05-31 16:32:32'),(2,2,'评价内容2131\r\n\r\n','2025-05-31 19:39:27','2025-05-31 19:39:27');
 
 /*Table structure for table `news` */
 
@@ -148,7 +148,7 @@ CREATE TABLE `news` (
 
 /*Data for the table `news` */
 
-insert  into `news`(`id`,`news_name`,`news_types`,`news_photo`,`insert_time`,`news_content`,`create_time`) values (3,'公告1',1,'http://localhost:8080/DMS/file/download?fileName=1621078082731.jpg','2021-05-15 19:28:05','公告信息详情1\r\n\r\n','2021-05-15 19:28:05'),(4,'公告2',2,'http://localhost:8080/DMS/file/download?fileName=1621078091525.jpg','2021-05-15 19:28:13','公告信息详情2\r\n\r\n','2021-05-15 19:28:13');
+insert  into `news`(`id`,`news_name`,`news_types`,`news_photo`,`insert_time`,`news_content`,`create_time`) values (3,'端午节快乐！',1,'http://10.100.10.2:8080/DMS/file/download?fileName=1621078082731.jpg','2025-05-31 08:28:05','端午节快乐，吃粽子、看赛龙舟、佩香囊，辟邪禳毒！\r\n\r\n','2025-05-31 08:28:06'),(4,'儿童节快乐！',2,'http://10.100.10.2:8080/DMS/file/download?fileName=1621078091525.jpg','2025-06-01 07:28:13','儿童节快乐！愿诸君永怀童心，快乐生活！\r\n\r\n','2025-06-01 07:28:14');
 
 /*Table structure for table `shenqingshenhe` */
 
@@ -168,7 +168,7 @@ CREATE TABLE `shenqingshenhe` (
 
 /*Data for the table `shenqingshenhe` */
 
-insert  into `shenqingshenhe`(`id`,`yonghu_id`,`gangwei_id`,`kaohepingjia_types`,`shenqingshenhe_file`,`shenqingshenhe_types`,`insert_time`,`create_time`) values (2,1,3,1,'http://localhost:8080/DMS/file/download?fileName=1621068919345.doc',2,'2021-05-15 16:55:20','2021-05-15 16:55:20'),(3,1,3,2,'http://localhost:8080/DMS/file/download?fileName=1621076360690.doc',2,'2021-05-15 18:59:21','2021-05-15 18:59:21'),(4,2,4,1,'http://localhost:8080/DMS/file/download?fileName=1621078563423.doc',2,'2021-05-15 19:36:04','2021-05-15 19:36:04'),(5,2,4,2,'http://localhost:8080/DMS/file/download?fileName=1621079160406.JPG',2,'2021-05-15 19:46:01','2021-05-15 19:46:01');
+insert  into `shenqingshenhe`(`id`,`yonghu_id`,`gangwei_id`,`kaohepingjia_types`,`shenqingshenhe_file`,`shenqingshenhe_types`,`insert_time`,`create_time`) values (2,1,3,1,'http://10.100.10.2:8080/DMS/file/download?fileName=1621068919345.doc',2,'2025-05-31 16:55:20','2025-05-31 16:55:20'),(3,1,3,2,'http://10.100.10.2:8080/DMS/file/download?fileName=1621076360690.doc',2,'2025-05-31 18:59:21','2025-05-31 18:59:21'),(4,2,4,1,'http://10.100.10.2:8080/DMS/file/download?fileName=1621078563423.doc',2,'2025-05-31 19:36:04','2025-05-31 19:36:04'),(5,2,4,2,'http://10.100.10.2:8080/DMS/file/download?fileName=1621079160406.JPG',2,'2025-05-31 19:46:01','2025-05-31 19:46:01');
 
 /*Table structure for table `token` */
 
@@ -201,11 +201,11 @@ CREATE TABLE `users` (
   `role` varchar(100) DEFAULT '管理员' COMMENT '角色',
   `addtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '新增时间',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='用户表';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='管理员表';
 
 /*Data for the table `users` */
 
-insert  into `users`(`id`,`username`,`password`,`role`,`addtime`) values (1,'admin','admin','管理员','2021-02-25 15:59:12');
+insert  into `users`(`id`,`username`,`password`,`role`,`addtime`) values (1,'admin','admin','初始超级管理员','2025-05-30 15:59:12');
 
 /*Table structure for table `xinzifafang` */
 
@@ -223,7 +223,7 @@ CREATE TABLE `xinzifafang` (
 
 /*Data for the table `xinzifafang` */
 
-insert  into `xinzifafang`(`id`,`yonghu_id`,`xinzifafang_money`,`insert_time`,`xinzifafang_content`,`create_time`) values (1,1,'10000.00','2021-05-15 19:27:49','备注1\r\n\r\n','2021-05-15 19:27:49'),(2,2,'20000.00','2021-05-15 19:40:30','备注123\r\n\r\n','2021-05-15 19:40:30');
+insert  into `xinzifafang`(`id`,`yonghu_id`,`xinzifafang_money`,`insert_time`,`xinzifafang_content`,`create_time`) values (1,1,'10000.00','2025-05-31 19:27:49','备注1\r\n\r\n','2025-05-31 19:27:49'),(2,2,'20000.00','2025-05-31 19:40:30','备注123\r\n\r\n','2025-05-31 19:40:30');
 
 /*Table structure for table `yonghu` */
 
@@ -246,7 +246,7 @@ CREATE TABLE `yonghu` (
 
 /*Data for the table `yonghu` */
 
-insert  into `yonghu`(`id`,`username`,`password`,`yonghu_name`,`sex_types`,`yonghu_id_number`,`yonghu_phone`,`yonghu_email`,`yonghu_photo`,`gangwei`,`create_time`) values (1,'111','123456','用户1',1,'410882198912111111','17789966591','1111@qq.com','http://localhost:8080/DMS/file/download?fileName=1621064532888.jpg',0,'2021-05-15 15:42:14'),(2,'222','123456','用户2',2,'410882198912111112','17789966592','2222@qq.com','http://localhost:8080/DMS/file/download?fileName=1621064550943.jpg',0,'2021-05-15 15:42:34');
+insert  into `yonghu`(`id`,`username`,`password`,`yonghu_name`,`sex_types`,`yonghu_id_number`,`yonghu_phone`,`yonghu_email`,`yonghu_photo`,`gangwei`,`create_time`) values (1,'111','123456','用户1',1,'410882198912111111','17789966591','1111@qq.com','http://10.100.10.2:8080/DMS/file/download?fileName=1621064532888.jpg',0,'2025-05-31 15:42:14'),(2,'222','123456','用户2',2,'410882198912111112','17789966592','2222@qq.com','http://10.100.10.2:8080/DMS/file/download?fileName=1621064550943.jpg',0,'2025-05-31 15:42:34');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
