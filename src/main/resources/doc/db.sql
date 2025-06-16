@@ -41,7 +41,7 @@ CREATE TABLE `bumenguanli` (
 
 /*Data for the table `bumenguanli` */
 
-insert  into `bumenguanli`(`id`,`username`,`password`,`bumenguanli_name`,`sex_types`,`bumenguanli_id_number`,`bumenguanli_phone`,`bumenguanli_email`,`bumenguanli_photo`,`create_time`) values (1,'333','123456','系统管理员1',1,'410882199111111111','17796688971','1111@qq.com','http://10.100.10.2:8080/DMS/file/download?fileName=1621063906638.jpg','2025-06-01 10:07:37'),(2,'444','123456','系统管理员2',2,'410882199212222222','17796632972','2222@qq.com','http://10.100.10.2:8080/DMS/file/download?fileName=1621063898883.jpg','2025-05-31 11:07:15');
+insert  into `bumenguanli`(`id`,`username`,`password`,`bumenguanli_name`,`sex_types`,`bumenguanli_id_number`,`bumenguanli_phone`,`bumenguanli_email`,`bumenguanli_photo`,`create_time`) values (1,'333','123456','系统管理员1',1,'410882199111111111','17796688971','1111@qq.com','http://localhost:8080/DMS/file/download?fileName=1621063906638.jpg','2025-06-01 10:07:37'),(2,'444','123456','系统管理员2',2,'410882199212222222','17796632972','2222@qq.com','http://localhost:8080/DMS/file/download?fileName=1621063898883.jpg','2025-05-31 11:07:15');
 
 /*Table structure for table `config` */
 
@@ -56,7 +56,7 @@ CREATE TABLE `config` (
 
 /*Data for the table `config` */
 
-insert  into `config`(`id`,`name`,`value`) values (1,'picture1','http://10.100.10.2:8080/gongchengcailiao/upload/1614999756013.jpg'),(2,'picture2','http://10.100.10.2:8080/gongchengcailiao/upload/1614999769770.jpg'),(3,'picture3','http://10.100.10.2:8080/gongchengcailiao/upload/1614999778981.jpg'),(6,'homepage',NULL);
+insert  into `config`(`id`,`name`,`value`) values (1,'picture1','http://localhost:8080/gongchengcailiao/upload/1614999756013.jpg'),(2,'picture2','http://localhost:8080/gongchengcailiao/upload/1614999769770.jpg'),(3,'picture3','http://localhost:8080/gongchengcailiao/upload/1614999778981.jpg'),(6,'homepage',NULL);
 
 /*Table structure for table `dictionary` */
 
@@ -148,7 +148,7 @@ CREATE TABLE `news` (
 
 /*Data for the table `news` */
 
-insert  into `news`(`id`,`news_name`,`news_types`,`news_photo`,`insert_time`,`news_content`,`create_time`) values (3,'端午节快乐！',1,'http://10.100.10.2:8080/DMS/file/download?fileName=1621078082731.jpg','2025-05-31 08:28:05','端午节快乐，吃粽子、看赛龙舟、佩香囊，辟邪禳毒！\r\n\r\n','2025-05-31 08:28:06'),(4,'儿童节快乐！',2,'http://10.100.10.2:8080/DMS/file/download?fileName=1621078091525.jpg','2025-06-01 07:28:13','儿童节快乐！愿诸君永怀童心，快乐生活！\r\n\r\n','2025-06-01 07:28:14');
+insert  into `news`(`id`,`news_name`,`news_types`,`news_photo`,`insert_time`,`news_content`,`create_time`) values (3,'端午节快乐！',1,'http://localhost:8080/DMS/file/download?fileName=1621078082731.jpg','2025-05-31 08:28:05','端午节快乐，吃粽子、看赛龙舟、佩香囊，辟邪禳毒！\r\n\r\n','2025-05-31 08:28:06'),(4,'儿童节快乐！',2,'http://localhost:8080/DMS/file/download?fileName=1621078091525.jpg','2025-06-01 07:28:13','儿童节快乐！愿诸君永怀童心，快乐生活！\r\n\r\n','2025-06-01 07:28:14');
 
 /*Table structure for table `shenqingshenhe` */
 
@@ -168,7 +168,7 @@ CREATE TABLE `shenqingshenhe` (
 
 /*Data for the table `shenqingshenhe` */
 
-insert  into `shenqingshenhe`(`id`,`yonghu_id`,`gangwei_id`,`kaohepingjia_types`,`shenqingshenhe_file`,`shenqingshenhe_types`,`insert_time`,`create_time`) values (2,1,3,1,'http://10.100.10.2:8080/DMS/file/download?fileName=1621068919345.doc',2,'2025-05-31 16:55:20','2025-05-31 16:55:20'),(3,1,3,2,'http://10.100.10.2:8080/DMS/file/download?fileName=1621076360690.doc',2,'2025-05-31 18:59:21','2025-05-31 18:59:21'),(4,2,4,1,'http://10.100.10.2:8080/DMS/file/download?fileName=1621078563423.doc',2,'2025-05-31 19:36:04','2025-05-31 19:36:04'),(5,2,4,2,'http://10.100.10.2:8080/DMS/file/download?fileName=1621079160406.JPG',2,'2025-05-31 19:46:01','2025-05-31 19:46:01');
+insert  into `shenqingshenhe`(`id`,`yonghu_id`,`gangwei_id`,`kaohepingjia_types`,`shenqingshenhe_file`,`shenqingshenhe_types`,`insert_time`,`create_time`) values (2,1,3,1,'http://localhost:8080/DMS/file/download?fileName=1621068919345.doc',2,'2025-05-31 16:55:20','2025-05-31 16:55:20'),(3,1,3,2,'http://localhost:8080/DMS/file/download?fileName=1621076360690.doc',2,'2025-05-31 18:59:21','2025-05-31 18:59:21'),(4,2,4,1,'http://localhost:8080/DMS/file/download?fileName=1621078563423.doc',2,'2025-05-31 19:36:04','2025-05-31 19:36:04'),(5,2,4,2,'http://localhost:8080/DMS/file/download?fileName=1621079160406.JPG',2,'2025-05-31 19:46:01','2025-05-31 19:46:01');
 
 /*Table structure for table `token` */
 
@@ -246,7 +246,7 @@ CREATE TABLE `yonghu` (
 
 /*Data for the table `yonghu` */
 
-insert  into `yonghu`(`id`,`username`,`password`,`yonghu_name`,`sex_types`,`yonghu_id_number`,`yonghu_phone`,`yonghu_email`,`yonghu_photo`,`gangwei`,`create_time`) values (1,'111','123456','用户1',1,'410882198912111111','17789966591','1111@qq.com','http://10.100.10.2:8080/DMS/file/download?fileName=1621064532888.jpg',0,'2025-05-31 15:42:14'),(2,'222','123456','用户2',2,'410882198912111112','17789966592','2222@qq.com','http://10.100.10.2:8080/DMS/file/download?fileName=1621064550943.jpg',0,'2025-05-31 15:42:34');
+insert  into `yonghu`(`id`,`username`,`password`,`yonghu_name`,`sex_types`,`yonghu_id_number`,`yonghu_phone`,`yonghu_email`,`yonghu_photo`,`gangwei`,`create_time`) values (1,'111','123456','用户1',1,'410882198912111111','17789966591','1111@qq.com','http://localhost:8080/DMS/file/download?fileName=1621064532888.jpg',0,'2025-05-31 15:42:14'),(2,'222','123456','用户2',2,'410882198912111112','17789966592','2222@qq.com','http://localhost:8080/DMS/file/download?fileName=1621064550943.jpg',0,'2025-05-31 15:42:34');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

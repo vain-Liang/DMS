@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-var baseUrl = "http://10.100.10.2:8080/DMS/";
+var baseUrl = "http://localhost:8080/DMS/";
 var projectName = "教育实践基地数字管理系统"
 
 /**
