@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>登陆</title>
+    <title>登录</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -264,7 +264,7 @@
 <div class="container">
 
     <div class="" id="login-wrapper">
-        <h1>登陆</h1>
+        <h1>登录</h1>
         <form id="loginForm" action="" method="post">
             <div class="form-group">
                 <label class="label">用户名</label> <input type="text" id="username" name="username" placeholder="用户名"
