@@ -8,7 +8,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- Java JDK 版本，可以不在这里更改而是在下面的 build 中更改
+        <!-- Java JDK version
         <java.version>23</java.version>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
