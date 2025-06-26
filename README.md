@@ -1,7 +1,7 @@
 > [!CAUTION]
 > - This source code was transferred to me a month ago, in May 2025.
-> - After a brief look at the code, I realized that the code should have been done at least 2 years ago, that is to say, many of the code and dependencies in this project are outdated, in particular, many of the dependencies in this project are security risks due to the version is too old
-> - **Please don't use this project in any public network or production environment (although I don't think anyone will)** :joy:
+> - After a brief look at the code, I realized that the code should have been done at least 3 years ago, that is to say, many of the code and dependencies in this project are outdated, in particular, many of the dependencies in this project are security risks due to the version is too old.
+> - **Please don't use this project in any public network or production environment (although I don't think anyone will).** :joy:
 > - It is just for my personal learning and testing purpose!
 
 ---
