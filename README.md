@@ -7,7 +7,7 @@
 ---
 
 # Introduction
-Management system based on [**Spring MVC**](https://docs.spring.io/spring-framework/reference/web/webmvc.html), [**Spring Framework**](https://github.com/spring-projects/spring-framework), [**Mybatis**](https://github.com/mybatis/mybatis-3) and [**Mybatis-plus**](https://github.com/baomidou/mybatis-plus) (SSM).
+Management system based on [**Spring MVC**](https://docs.spring.io/spring-framework/reference/web/webmvc.html), [**Spring Framework**](https://github.com/spring-projects/spring-framework), [**Mybatis**](https://github.com/mybatis/mybatis-3) (SSM).
 
 # About
 
